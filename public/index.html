@@ -11,6 +11,7 @@
     <header class="header">
         <div class="header-container">
             <div class="logo">
+                <img src="../images/coinnn.jpg" alt="Logo Numisfera" class="logo-image">
                 <h1 class="logo-text">Numisfera</h1>
             </div>
             <nav class="nav">
@@ -28,12 +29,15 @@
         <!-- Hero Section -->
         <section class="hero">
             <div class="hero-content">
-                <h2 class="hero-title">Descubra o incrivel mundo das Moedas</h2>
-                <p class="hero-description">Explore uma coleção única de moedas.</p>
+                <h2 class="hero-title">Descubra o Fascínio das Moedas</h2>
+                <p class="hero-description">Explore uma coleção única de moedas brasileiras e internacionais</p>
                 <div class="hero-buttons">
                     <button class="btn btn-primary">Explorar Coleção</button>
                     <button class="btn btn-secondary">Cadastrar Moeda</button>
                 </div>
+            </div>
+            <div class="hero-image">
+                <img src="../images/moedasantigas-1734038403.jpg" alt="Moedas em destaque" class="hero-img">
             </div>
         </section>
 
@@ -45,16 +49,19 @@
                     <h3 class="section-title">Destaques da Coleção</h3>
                     <div class="coins-grid">
                         <article class="coin-card">
+                            <img src="../images/coinnn.jpg" alt="Moeda 1 Real 1994" class="coin-image">
                             <h4 class="coin-title">1 Real 1994</h4>
                             <p class="coin-description">Primeira moeda do Real</p>
                             <span class="coin-rarity">Raridade: Alta</span>
                         </article>
                         <article class="coin-card">
+                            <img src="../images/ancient-coin.jpg" alt="Moeda Cruzeiro 1986" class="coin-image">
                             <h4 class="coin-title">Cruzeiro 1986</h4>
                             <p class="coin-description">Moeda histórica</p>
                             <span class="coin-rarity">Raridade: Média</span>
                         </article>
                         <article class="coin-card">
+                            <img src="../images/vintage-4896141_1280.jpg" alt="Moeda Dólar 1921" class="coin-image">
                             <h4 class="coin-title">Dólar 1921</h4>
                             <p class="coin-description">Moeda americana rara</p>
                             <span class="coin-rarity">Raridade: Muito Alta</span>
@@ -67,21 +74,24 @@
                     <h3 class="section-title">Categorias</h3>
                     <div class="categories-grid">
                         <div class="category-card">
+                            <img src="../images/download.jpeg" alt="Moedas Brasileiras" class="category-image">
                             <h4 class="category-title">Brasileiras</h4>
                             <p class="category-count">45 moedas</p>
                         </div>
                         <div class="category-card">
+                            <img src="../images/download (1).jpeg" alt="Moedas Estrangeiras" class="category-image">
                             <h4 class="category-title">Estrangeiras</h4>
                             <p class="category-count">78 moedas</p>
                         </div>
                         <div class="category-card">
+                            <img src="../images/MOEDAS ANTIGAS _ COLEÇÃO _ VALOR.jpeg" alt="Moedas Históricas" class="category-image">
                             <h4 class="category-title">Históricas</h4>
                             <p class="category-count">27 moedas</p>
                         </div>
                     </div>
                 </section>
 
-                <!-- Estatisticas Section -->
+                <!-- Estatísticas Section -->
                 <section class="section section-stats">
                     <h3 class="section-title">Estatísticas da Coleção</h3>
                     <div class="stats-grid">
@@ -94,19 +104,85 @@
                             <span class="stat-label">Países</span>
                         </div>
                         <div class="stat-item">
-                            <span class="stat-number">1890-2025</span>
+                            <span class="stat-number">1890-2024</span>
                             <span class="stat-label">Período</span>
                         </div>
                     </div>
                 </section>
             </div>
         </section>
+
+        <!-- Articles Section -->
+        <section class="articles-section">
+            <h3 class="section-title">Artigos e Histórias</h3>
+            <div class="articles-grid">
+                <article class="article-card">
+                    <img src="../images/1911 Encyclopædia Britannica_Numismatics - Wikisource, the free online library.jpeg" alt="Moeda de 1 Real 1994" class="article-image">
+                    <div class="article-content">
+                        <h4 class="article-title">Moeda de 1 Real 1994</h4>
+                        <p class="article-excerpt">A história da primeira moeda do Real e sua importância para a economia brasileira.</p>
+                        <span class="article-rarity">Raridade: Alta</span>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <img src="../images/cruzeiro.jpg" alt="História do Cruzeiro" class="article-image">
+                    <div class="article-content">
+                        <h4 class="article-title">História do Cruzeiro</h4>
+                        <p class="article-excerpt">Artigo sobre a evolução monetária brasileira e o período do Cruzeiro.</p>
+                        <span class="article-rarity">Período: 1986-1994</span>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <img src="../images/owl.jpeg" alt="Dicas para Conservação" class="article-image">
+                    <div class="article-content">
+                        <h4 class="article-title">Dicas para Conservação</h4>
+                        <p class="article-excerpt">Guia completo para manter suas moedas em perfeito estado de conservação.</p>
+                        <span class="article-rarity">Guia Prático</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Form Section -->
+        <section class="form-section">
+            <h3 class="section-title">Adicionar Nova Moeda à Coleção</h3>
+            <form class="coin-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="coin-name" class="form-label">Nome da Moeda:</label>
+                        <input type="text" id="coin-name" name="coin-name" class="form-input" placeholder="Ex: 1 Real 1994">
+                    </div>
+                    <div class="form-group">
+                        <label for="coin-country" class="form-label">País:</label>
+                        <input type="text" id="coin-country" name="coin-country" class="form-input" placeholder="Ex: Brasil">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="coin-year" class="form-label">Ano:</label>
+                        <input type="number" id="coin-year" name="coin-year" class="form-input" placeholder="Ex: 1994">
+                    </div>
+                    <div class="form-group">
+                        <label for="coin-value" class="form-label">Valor:</label>
+                        <input type="text" id="coin-value" name="coin-value" class="form-input" placeholder="Ex: R$ 1,00">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary form-submit">Adicionar Moeda</button>
+            </form>
+        </section>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-container">
-            <p class="footer-copyright">© 2025 Numisfera</p>
+            <p class="footer-copyright">© 2025 Numisfera - Preservando a História</p>
+            <nav class="footer-nav">
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item"><a href="#sobre" class="footer-nav-link">Sobre</a></li>
+                    <li class="footer-nav-item"><a href="#contato" class="footer-nav-link">Contato</a></li>
+                    <li class="footer-nav-item"><a href="#privacidade" class="footer-nav-link">Política de Privacidade</a></li>
+                </ul>
+            </nav>
         </div>
     </footer>
 </body>
